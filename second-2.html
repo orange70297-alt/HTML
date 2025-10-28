@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> css_自訂樣式 CLASS+ TAG </title>
+    <style>
+        h2.st1 {
+            color: red;
+            text-transform: capitalize;
+        }
+
+        .st2 {
+            color: aquamarine;
+            text-transform: uppercase;
+        }
+
+        .color1 {
+            color: orange
+        }
+
+        h3.color2 {
+            color: blue
+        }
+
+        .size1 {
+            font-size: 2em;
+        }
+
+        .size2 {
+            font-size: 3em;
+        }
+
+        .under {
+            text-decoration: underline;
+        }
+
+        .sty1 {
+            font-style: italic;
+        }
+
+
+        #col1h1 {
+            color: green;
+            text-decoration: underline;
+        }
+
+        .col1h1 {
+            color: red
+        }
+
+        h1 {
+            color: blue
+        }
+    </style>
+
+    <link rel="stylesheet" href="styles/st1.css">
+
+
+</head>
+
+<body>
+
+    <h1 class="col1h1" id="col1h1"> apple </h1>
+    <h2 class="st2"> orange </h2>
+    <h2 class="st1"> banana </h2>
+    <h3 class="st2"> grape </h3>
+    <h3 class="color1 size1 under">monkey</h3>
+    <h3 class="color2 size1 under">monkey</h3>
+    <h3 class="color2 size2 sty1">panda</h3>
+    <h4 class="color2 size2 sty1">panda</h4>
+    <p> this is a paragraph </p>
+</body>
+
+</html>

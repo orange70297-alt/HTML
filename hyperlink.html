@@ -5,6 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> 超連結元素 </title>
+    <style>
+        .list>li>a:link {
+            text-decoration: none;
+        }
+
+        .list>li>a:visited {
+            color: red
+        }
+
+        .list>li>a:hover {
+            text-decoration: underline;
+            color: green
+        }
+
+        .list>li>a:active {
+            color: yellow;
+            font-size: 2em;
+        }
+    </style>
 </head>
 
 <body>
@@ -13,8 +32,19 @@
     <a href="list.html"> List </a>
     <a href="mailto:orange70297@gmail.com"> mail to me </a>
     <a href="#bookmark1">bookmark1 </a>
-    <a href="index_1.html">ㄟ嘿嘿</a>
-    <a href="#bookmark2">館長bookmark2</a>
+
+
+    <ul class="list">
+
+
+
+        <li><a href="https://www.iSpan.com.tw">首頁</a></li>
+        <li><a href="index.html">部落格</a></li>
+        <li><a href="list.html">關於</a></li>
+        <li><a href="mailto:orange70297@gmail.com">聯絡</a></li>
+    </ul>
+
+
 
     <h2 id="bookmark1"> 才否認聯手家寧！陳零九再寫歌反擊 心酸內幕全唱了：沒有要復出 </h2>
     <figure style="background-color: aquamarine;">

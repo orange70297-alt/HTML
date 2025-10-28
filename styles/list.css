@@ -1,0 +1,23 @@
+  .list1 {
+      list-style-image: url(../images/usage.png);
+      list-style-type: none;
+
+      border: 3px dotted red;
+      /* border-radius: 5px 10px 15px 20px; */
+      border-radius: 20px 0 20px 0;
+  }
+
+  .list2 {
+      list-style-image: none;
+      list-style-type: upper-alpha;
+  }
+
+  .in {
+      background-color: orange;
+      list-style-position: inside;
+  }
+
+  .out {
+      background-color: orange;
+      list-style-position: outside
+  }
