@@ -5,7 +5,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> css_自訂樣式 CLASS+ TAG </title>
+
+    <!-- <link rel="stylesheet" href="stlyes/st1.css">
+    <link rel="stylesheet" href="styles/font.css"> -->
+
+    <link rel="stylesheet" href="styles/link.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link
+        href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet"> -->
+
     <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap'); */
+
+        /* @font-face {
+            font-family: font1;
+            src: url(fonts/JustOldFashion.ttf);
+        }
+
+        @font-face {
+            font-family: font2;
+            src: url(fonts/SCRIPTIN.ttf);
+        }
+
+        .font1 {
+            font-family: font1;
+        }
+
+        .font2 {
+            font-family: font2;
+        }
+
+
+        .p5 {
+            font-family: "Lobster Two", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        } */
+
         h2.st1 {
             color: red;
             text-transform: capitalize;
@@ -62,15 +100,15 @@
 
 <body>
 
-    <h1 class="col1h1" id="col1h1"> apple </h1>
-    <h2 class="st2"> orange </h2>
-    <h2 class="st1"> banana </h2>
-    <h3 class="st2"> grape </h3>
+    <h1 class="col1h1 font2" id="col1h1"> apple </h1>
+    <h2 class="st2 font1"> orange </h2>
+    <h2 class="st1 font2"> banana </h2>
+    <h3 class="st2 font1"> grape </h3>
     <h3 class="color1 size1 under">monkey</h3>
     <h3 class="color2 size1 under">monkey</h3>
-    <h3 class="color2 size2 sty1">panda</h3>
-    <h4 class="color2 size2 sty1">panda</h4>
-    <p> this is a paragraph </p>
+    <h3 class="color2 size2 p">panda</h3>
+    <h4 class="color2 size2 p">panda</h4>
+    <p class="p5"> this is a paragraph </p>
 </body>
 
 </html>
