@@ -25,6 +25,8 @@
             position: relative;
             /* 請加上top or right or left or bottom調整邊界距離 */
 
+            /* top: 50px; */
+            /* right: -50px */
         }
 
         .fixed {
@@ -33,8 +35,10 @@
             background-color: #E8FFF5;
             padding: 5px;
             /* 請設定position:fixed */
-
-            /* 請加上top or right or left or bottom調整邊界距離 */
+            position: fixed;
+            right: 0;
+            bottom: 100px
+                /* 請加上top or right or left or bottom調整邊界距離 */
 
         }
 
@@ -45,6 +49,7 @@
             border: 3px solid purple;
             background-color: #EBD3E8;
             /* 請設定position:static */
+            position: static;
 
         }
 
@@ -57,6 +62,7 @@
             position: absolute;
             /* 請加上top or right or left or bottom來調整邊界距離 */
 
+            right: 50px
         }
 
         .div_relative {
@@ -66,6 +72,7 @@
             border: 3px solid purple;
             background-color: #EBD3E8;
             /* 請設定position:relative */
+            position: relative;
 
         }
 
@@ -80,6 +87,8 @@
             position: absolute;
             /* 請加上top or right or left or bottom來調整邊界距離 */
 
+            top: 100px;
+            right: 50px
         }
     </style>
 </head>

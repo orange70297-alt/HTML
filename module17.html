@@ -16,18 +16,29 @@
 
         .span2 {
             /* 請在這裡加上visibility屬性，並將span2設為隱藏 */
+            visibility: hidden;
 
         }
 
 
         .box:hover .span1 {
             /* 請在這裡加上display屬性將span1設為消失 */
+            display: none;
 
         }
 
         .box:hover .span2 {
             /* 請在這裡加上visibility屬性將span2設為顯示 */
 
+            visibility: visible;
+
+        }
+
+        .box2 {
+            width: 100px;
+            height: 75px;
+            border: 1px solid red;
+            overflow: hidden
         }
     </style>
 
@@ -36,6 +47,18 @@
 </head>
 
 <body>
+
+    <!-- <p>lorem100</p> 新增隨機文字100個 -->
+
+    <div class="box2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati deleniti sint sit. Est
+        accusamus facilis a quam ad autem saepe corporis officiis magnam tempore architecto laudantium ut recusandae
+        accusantium consequatur totam sit atque vero nemo voluptatum, deserunt, hic itaque iure! Ex, voluptatem!
+        Necessitatibus, libero eos? Numquam inventore minus nam corrupti? Doloremque blanditiis quod mollitia obcaecati,
+        sint minima illum, quo accusamus amet iusto iste. Eveniet, assumenda ipsum ea sed sunt maiores soluta nesciunt!
+        Dolor, aperiam. Animi odit atque culpa, ipsam esse itaque labore dolor quam nihil sapiente incidunt facilis
+        facere soluta distinctio excepturi adipisci minima a iure expedita nisi consequuntur alias? </div>
+
+
     <div class="box">
         <span class="span1">span1</span>
         <label for="" class="label1">
